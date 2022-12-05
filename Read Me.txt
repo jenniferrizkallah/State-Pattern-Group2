@@ -1,6 +1,10 @@
 The "DataFx" file contains the GUI code and all the events mapped to it. Inside of it is the "Executable Program" file which contains the 
 executable application. (Note as previously mentioned , errors might be faced while launching it relating to your
 JVE and JNI versions and paths , and also their compatibility with the JavaFx library used.)
+The Fx library was zipped due to upload restrictions by github, so in order to use the library unzip everything but the zipped src file in the Fx file
+and then in eclipse : right click on the Datafx Project > Build Path > Libraries > Import external JARS > add everything in the lib folde.
+
+
 
 The "Data Project Support Gui Code" files contains the altered methods of the main code , since the GUI is not compatible
 with certain returns and updating the scene multiple times and also needed different returns from the code.
