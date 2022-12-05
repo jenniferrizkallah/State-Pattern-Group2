@@ -1,0 +1,11 @@
+The "DataFx" file contains the GUI code and all the events mapped to it. Inside of it is the "Executable Program" file which contains the 
+executable application. (Note as previously mentioned , errors might be faced while launching it relating to your
+JVE and JNI versions and paths , and also their compatibility with the JavaFx library used.)
+
+The "Data Project Support Gui Code" files contains the altered methods of the main code , since the GUI is not compatible
+with certain returns and updating the scene multiple times and also needed different returns from the code.
+
+The "Data Project Main" contains the main methods and codes for each of the 3 states. Run the "Main.java" class to access
+our personal Eclipse UI which serves to show more behind the scenes of what our code does and what each commands outputs.
+This was made due to the GUIs limited event complexity , and because some outputs logically should not be displayed on an
+interface (however they are important to show you as an instructor to better understand the code.)
